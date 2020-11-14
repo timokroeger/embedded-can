@@ -3,6 +3,12 @@ name = "embedded-can"
 version = "0.1.0"
 authors = ["Timo Kröger <timokroeger93@gmail.com>"]
 edition = "2018"
+description = "An embedded Controller Area Network (CAN) abstraction layer"
+keywords = ["embedded-hal", "can", "hal"]
+categories = ["embedded", "no-std"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/timokroeger/embedded-can"
 
 [dependencies]
 nb = "1.0.0"
