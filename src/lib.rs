@@ -1,4 +1,5 @@
 //! Controller Area Network
+#![no_std]
 
 pub mod blocking;
 
