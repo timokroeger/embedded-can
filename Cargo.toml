@@ -1,0 +1,8 @@
+[package]
+name = "embedded-can"
+version = "0.1.0"
+authors = ["Timo Kröger <timokroeger93@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nb = "1.0.0"
