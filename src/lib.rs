@@ -31,7 +31,7 @@ pub trait Frame: Sized {
     fn new(id: Id, data: &[u8]) -> Result<Self, ()>;
 
     /// Creates a new remote frame (RTR bit set).
-    /// Returns an error when the the identifier is  or the data length code (DLC) not valid.
+    /// Returns an error when the the identifier or the data length code (DLC) is not valid.
     fn new_remote(id: Id, dlc: usize) -> Result<Self, ()>;
 
     /// Returns true if this frame is a extended frame.
