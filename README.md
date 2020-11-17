@@ -1,7 +1,7 @@
 # `embedded-can`
 
-![crates.io](https://img.shields.io/crates/v/embedded-can)
-![docs.rs](https://docs.rs/embedded-can/badge.svg)
+[![crates.io](https://img.shields.io/crates/v/embedded-can)](https://crates.io/crates/embedded-can)
+[![docs.rs](https://docs.rs/embedded-can/badge.svg)](https://docs.rs/embedded-can)
 
 An embedded Controller Area Network (CAN) abstraction layer.
 This crate defines generic traits to be implemented by CAN driver and MCU HAL crates.
