@@ -7,8 +7,8 @@ https://github.com/rust-embedded/embedded-hal/pull/212
 
 # Implementations
 
-* [stm32f1xx-hal](https://github.com/timokroeger/stm32f1xx-hal/blob/38f168a7593cf34d426d20b310575df82134e9b9/src/can.rs#L1078-L1124)
-* [pcan-basic](https://github.com/timokroeger/pcan-basic-rs/blob/e675be646c501fc63dfdde893e267d14b9c0e0af/pcan-basic/src/lib.rs#L194-L233)
+* [stm32f1xx-hal](https://github.com/timokroeger/stm32f1xx-hal/blob/can-embedded-hal/src/can.rs)
+* [pcan-basic](https://github.com/timokroeger/pcan-basic-rs/blob/master/pcan-basic/src/lib.rs)
 
 # Usage examples
 
