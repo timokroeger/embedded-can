@@ -1,6 +1,6 @@
 [package]
 name = "embedded-can"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Timo Kröger <timokroeger93@gmail.com>"]
 edition = "2018"
 description = "An embedded Controller Area Network (CAN) abstraction layer"

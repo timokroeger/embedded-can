@@ -10,7 +10,7 @@ https://github.com/rust-embedded/embedded-hal/pull/212
 
 # Implementations
 
-* [stm32f1xx-hal](https://github.com/timokroeger/stm32f1xx-hal/blob/can-embedded-hal/src/can.rs)
+* [bxcan](https://github.com/stm32-rs/bxcan/pull/6)
 * [pcan-basic](https://github.com/timokroeger/pcan-basic-rs/blob/master/pcan-basic/src/lib.rs)
 
 # Usage examples
