@@ -1,4 +1,3 @@
-
 /// A CAN interface that is able to transmit and receive frames.
 pub trait Can {
     /// Associated frame type.
@@ -20,9 +19,8 @@ pub trait Can {
     ///   than one transmit buffer is available.
     /// * When replacing pending frames make sure the frame is not in the process of
     ///   being send to the bus.
-    fn try_transmit(&mut self, frame: &Self::Frame)
-        -> nb::Result<Option<Self::Frame>, Self::Error>;
+    fn transmit(&mut self, frame: &Self::Frame) -> nb::Result<Option<Self::Frame>, Self::Error>;
 
     /// Returns a received frame if available.
-    fn try_receive(&mut self) -> nb::Result<Self::Frame, Self::Error>;
+    fn receive(&mut self) -> nb::Result<Self::Frame, Self::Error>;
 }

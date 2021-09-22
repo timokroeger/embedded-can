@@ -10,8 +10,8 @@ pub trait Can {
 
     /// Puts a frame in the transmit buffer. Blocks until space is available in
     /// the transmit buffer.
-    fn try_write(&mut self, frame: &Self::Frame) -> Result<(), Self::Error>;
+    fn write(&mut self, frame: &Self::Frame) -> Result<(), Self::Error>;
 
     /// Blocks until a frame was received or an error occured.
-    fn try_read(&mut self) -> Result<Self::Frame, Self::Error>;
+    fn read(&mut self) -> Result<Self::Frame, Self::Error>;
 }
